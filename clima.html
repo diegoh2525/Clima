@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Como esta el clima?</title>
+    <link rel="stylesheet" href="./clima.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tú ubicación ☀️🌧️</h1>
+        <div class="weather-info" id="weatherInfo">Obteniendo tu ubicación...</div>
+        <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(255,255,255,0.5); width: 100%;">
+        <p>¿Deseas ver el clima de otra ciudad?</p>
+        <input type="text" id="cityInput" placeholder="Ingresa una ciudad...">
+        <button onclick="getWeatherByCity()">Buscar clima</button>
+    </div>
+    <script src="./clima.js"></script>
+</body>
+
+</html>
