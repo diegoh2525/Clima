@@ -73,5 +73,5 @@ function displayWeather(data) {
         <p>🌡️ Temperatura: ${data.main.temp} °C</p>
         <p>🌥️ Estado: ${data.weather[0].description}</p>
         <p>💨 Viento: ${data.wind.speed} m/s</p>
-      `;
+    `;
 }
